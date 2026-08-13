@@ -3,226 +3,133 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="S R Metallic — M-Type Metallic Yarn manufacturer with 20 years of experience, custom colours and cutting solutions.">
-  <meta name="theme-color" content="#8a4e50">
-  <title>S R Metallic | M-Type Metallic Yarn</title>
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="style.css">
+
+  <title>SR Metallic | Coming Soon</title>
+
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: Arial, Helvetica, sans-serif;
+      min-height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background: linear-gradient(135deg, #111827, #1f2937, #374151);
+      color: #ffffff;
+      text-align: center;
+    }
+
+    .container {
+      width: 90%;
+      max-width: 700px;
+      padding: 50px 30px;
+    }
+
+    .logo {
+      font-size: 42px;
+      font-weight: 800;
+      letter-spacing: 3px;
+      margin-bottom: 25px;
+    }
+
+    .logo span {
+      color: #d1d5db;
+    }
+
+    .badge {
+      display: inline-block;
+      padding: 8px 18px;
+      border: 1px solid #9ca3af;
+      border-radius: 30px;
+      font-size: 14px;
+      letter-spacing: 1px;
+      margin-bottom: 25px;
+      color: #e5e7eb;
+    }
+
+    h1 {
+      font-size: 48px;
+      margin-bottom: 20px;
+      line-height: 1.2;
+    }
+
+    p {
+      font-size: 18px;
+      line-height: 1.7;
+      color: #d1d5db;
+      margin-bottom: 30px;
+    }
+
+    .loader {
+      width: 55px;
+      height: 55px;
+      border: 4px solid rgba(255,255,255,0.2);
+      border-top: 4px solid #ffffff;
+      border-radius: 50%;
+      animation: spin 1s linear infinite;
+      margin: 0 auto 30px;
+    }
+
+    @keyframes spin {
+      100% {
+        transform: rotate(360deg);
+      }
+    }
+
+    .footer {
+      margin-top: 40px;
+      font-size: 13px;
+      color: #9ca3af;
+    }
+
+    @media (max-width: 600px) {
+      .logo {
+        font-size: 32px;
+      }
+
+      h1 {
+        font-size: 36px;
+      }
+
+      p {
+        font-size: 16px;
+      }
+    }
+  </style>
 </head>
+
 <body>
-  <header class="site-header" id="top">
-    <div class="container nav-wrap">
-      <a class="brand" href="#top" aria-label="S R Metallic home">
-        <img src="images/logo.jpeg" alt="S R Metallic logo">
-      </a>
-      <button class="menu-toggle" aria-label="Open menu" aria-expanded="false">
-        <span></span><span></span><span></span>
-      </button>
-      <nav class="nav" aria-label="Main navigation">
-        <a href="#about">About-b- Us</a>
-        <a href="#product">Product</a>
-        <a href="#strengths">Why v--Us</a>
-        <a href="#gallery">Gallery</a>
-        <a href="#contact" class="nav-cta">Get in touch</a>
-      </nav>
+
+  <div class="container">
+
+    <div class="logo">
+      SR <span>METALLIC</span>
     </div>
-  </header>
 
-  <main>
-    <section class="hero">
-      <div class="hero-pattern"></div>
-      <div class="container hero-grid">
-        <div class="hero-copy">
-          <p class="eyebrow"><span></span> 20 YEARS OF EXPERIENCE</p>
-          <h1>Metallic yarn,<br><em>made your way.</em></h1>
-          <p class="hero-text">
-            S R Metallic specialises in M-Type Metallic Yarn, with custom colours
-            and cutting options tailored to the needs of our customers.
-          </p>
-          <div class="hero-actions">
-            <a href="#contact" class="btn btn-primary">Request an enquiry <span>→</span></a>
-            <a href="#product" class="btn btn-ghost">Explore product</a>
-          </div>
-          <div class="hero-proof">
-            <div><strong>20+</strong><span>Years in business</span></div>
-            <div><strong>M-Type</strong><span>Metallic yarn</span></div>
-            <div><strong>Custom</strong><span>Colour & cutting</span></div>
-          </div>
-        </div>
-        <div class="hero-visual">
-          <div class="image-card main-card">
-            <img src="images/products.jpeg" alt="S R Metallic M-Type metallic yarn spools">
-          </div>
-          <div class="floating-card">
-            <span class="spark">✦</span>
-            <div><strong>Made to order</strong><small>Colours & cuts to suit your requirement</small></div>
-          </div>
-          <div class="hero-ring ring-one"></div>
-          <div class="hero-ring ring-two"></div>
-        </div>
-      </div>
-    </section>
-
-    <section class="trust-strip">
-      <div class="container trust-grid">
-        <div><span class="dot"></span> Consistent service</div>
-        <div><span class="dot"></span> Customer-focused solutions</div>
-        <div><span class="dot"></span> Custom colour options</div>
-        <div><span class="dot"></span> Multiple cutting options</div>
-      </div>
-    </section>
-
-    <section class="section about" id="about">
-      <div class="container two-col">
-        <div>
-          <p class="eyebrow">ABOUT S R METALLIC</p>
-          <h2>Experience built around<br><em>real customer needs.</em></h2>
-        </div>
-        <div class="about-copy">
-          <p>
-            For the last 20 years, S R Metallic has built a strong name in the
-            zari and metallic yarn market by solving complex requirements and
-            staying close to customer needs.
-          </p>
-          <p>
-            We manufacture M-Type Metallic Yarn in a wide range of colours and
-            cutting styles. Our customers can specify the colour and cutting
-            requirement they need, and we work to deliver a suitable solution.
-          </p>
-          <p>
-            Many of our customers have been associated with us for 7–8 years,
-            reflecting the long-term relationships we aim to build through
-            dependable service and practical solutions.
-          </p>
-        </div>
-      </div>
-    </section>
-
-    <section class="section product-section" id="product">
-      <div class="container">
-        <div class="section-heading">
-          <div>
-            <p class="eyebrow">OUR PRODUCT</p>
-            <h2>M-Type Metallic Yarn</h2>
-          </div>
-          <p>Flexible options for colour and cutting, tailored to your requirement.</p>
-        </div>
-
-        <div class="product-feature">
-          <div class="product-image">
-            <img src="images/product-detail.jpeg" alt="Close-up of S R Metallic M-Type metallic yarn spool">
-          </div>
-          <div class="product-info">
-            <span class="product-number">01 / M-TYPE</span>
-            <h3>Precision that catches the light.</h3>
-            <p>
-              Our M-Type Metallic Yarn is available in different colour options
-              and cutting styles to help customers achieve the look and finish
-              they need.
-            </p>
-            <div class="feature-list">
-              <div><span>01</span><b>Colour variety</b><small>Choose colours according to your requirement.</small></div>
-              <div><span>02</span><b>Custom cutting</b><small>Different cutting options available for your application.</small></div>
-              <div><span>03</span><b>Requirement-led service</b><small>We work around the specifications of our customers.</small></div>
-            </div>
-            <a href="#contact" class="text-link">Discuss your requirement <span>→</span></a>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <section class="section strengths" id="strengths">
-      <div class="container">
-        <div class="center-heading">
-          <p class="eyebrow">WHY S R METALLIC</p>
-          <h2>A partner for the details<br><em>that matter.</em></h2>
-        </div>
-        <div class="strength-grid">
-          <article class="strength-card">
-            <span class="card-icon">20</span>
-            <h3>20 Years of experience</h3>
-            <p>Two decades of hands-on experience in the metallic and zari yarn business.</p>
-          </article>
-          <article class="strength-card">
-            <span class="card-icon">✦</span>
-            <h3>Custom solutions</h3>
-            <p>Colour and cutting options can be adapted to your specific requirement.</p>
-          </article>
-          <article class="strength-card">
-            <span class="card-icon">↗</span>
-            <h3>Problem solving</h3>
-            <p>We have grown by taking on challenging requirements and finding practical solutions.</p>
-          </article>
-          <article class="strength-card">
-            <span class="card-icon">∞</span>
-            <h3>Long-term relationships</h3>
-            <p>Many customers have stayed connected with us for 7–8 years and beyond.</p>
-          </article>
-        </div>
-      </div>
-    </section>
-
-    <section class="section gallery" id="gallery">
-      <div class="container">
-        <div class="section-heading">
-          <div>
-            <p class="eyebrow">PRODUCT GALLERY</p>
-            <h2>See the metallic finish.</h2>
-          </div>
-          <p>A selection of S R Metallic product visuals.</p>
-        </div>
-        <div class="gallery-grid">
-          <figure class="gallery-large"><img src="images/products.jpeg" alt="Collection of S R Metallic yarn spools"></figure>
-          <figure><img src="images/product-detail.jpeg" alt="S R Metallic silver metallic yarn spool"></figure>
-          <div class="gallery-note">
-            <span>SR</span>
-            <p>Metallic yarn solutions for customers who care about colour, cut and finish.</p>
-            <a href="#contact" class="text-link">Send an enquiry →</a>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <section class="cta-section" id="contact">
-      <div class="container cta-inner">
-        <div>
-          <p class="eyebrow light">LET'S TALK</p>
-          <h2>Have a colour or cutting<br><em>requirement?</em></h2>
-          <p>Tell us what you need. We’ll be happy to discuss a suitable M-Type Metallic Yarn solution.</p>
-        </div>
-        <div class="contact-box">
-          <a href="mailto:info@srmetallic.com" class="contact-row">
-            <span class="contact-icon">✉</span>
-            <span><small>Email us</small><strong>info@srmetallic.com</strong></span>
-          </a>
-          <div class="contact-row">
-            <span class="contact-icon">☎</span>
-            <span><small>Phone</small><strong>123456789</strong></span>
-          </div>
-          <a href="mailto:info@srmetallic.com?subject=M-Type%20Metallic%20Yarn%20Enquiry" class="btn btn-light">Send enquiry <span>→</span></a>
-        </div>
-      </div>
-    </section>
-  </main>
-
-  <footer>
-    <div class="container footer-wrap">
-      <div class="footer-brand">
-        <img src="images/logo.jpeg" alt="S R Metallic">
-        <p>M-Type Metallic Yarn<br>Colour & cutting solutions.</p>
-      </div>
-      <div class="footer-links">
-        <a href="#about">About</a>
-        <a href="#product">Product</a>
-        <a href="#gallery">Gallery</a>
-        <a href="#contact">Contact</a>
-      </div>
-      <p class="copyright">© <span id="year"></span> S R Metallic. All rights reserved.</p>
+    <div class="badge">
+      WEBSITE UNDER DEVELOPMENT
     </div>
-  </footer>
 
-  <script src="script.js"></script>
+    <div class="loader"></div>
+
+    <h1>We’re Building Something Great</h1>
+
+    <p>
+      Our new website is currently under development.
+      We’re working hard to bring you a better experience.
+      Please check back soon.
+    </p>
+
+    <div class="footer">
+      © 2026 SR Metallic. All Rights Reserved.
+    </div>
+
+  </div>
+
 </body>
 </html>
