@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 180" fill="none">
+  <path d="M256 25L321 90L256 155L191 90L256 25Z" fill="#FFFFFF"/>
+  <path d="M256 9L336 89" stroke="#EF3B2D" stroke-width="18" stroke-linecap="round"/>
+  <path d="M176 89L256 9" stroke="#0072CE" stroke-width="18" stroke-linecap="round"/>
+  <path d="M256 169L176 89" stroke="#FFC20E" stroke-width="18" stroke-linecap="round"/>
+  <text x="300" y="125" font-family="Poppins, Montserrat, Arial, sans-serif" font-weight="700" font-size="100" fill="#FFFFFF" letter-spacing="2">SR</text>
+  <text x="430" y="118" font-family="Poppins, Montserrat, Arial, sans-serif" font-weight="600" font-size="38" fill="#D4AF37" letter-spacing="4">METALLIC</text>
+  <circle cx="655" cy="55" r="12" stroke="#FFFFFF" stroke-width="2.5" fill="none"/>
+  <text x="655" y="60" text-anchor="middle" font-family="Arial, sans-serif" font-size="15" font-weight="700" fill="#FFFFFF">R</text>
+</svg>
